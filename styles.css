@@ -1,0 +1,88 @@
+html {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+.card {
+  background: gold;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+  border: solid black 1px;
+  padding: 5px;
+  width: 328px;
+}
+
+.decorative {
+  background: url(textured_paper.png);
+  border-radius: 4px;
+  border: 1px black;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36);
+  padding: 5px;
+}
+
+.top {}
+
+.species {
+  border: solid black 2px;
+  border-radius: 4px;
+  background-color: rgba(77, 51, 25, 0.3);
+  color: white;
+  display: inline-block;
+  padding: 11px;
+  box-sizing: border-box;
+  margin-left: 83px;
+}
+
+.top img {
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.17);
+  border: solid black 2px;
+  margin: 5px;
+}
+
+.bottom {
+  border: solid black 2px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.6);
+  padding: 2px;
+  margin: 7px;
+  color: white;
+  background-color: rgba(77, 51, 25, 0.69);
+}
+
+.interesting_fact {
+  font-style: italic;
+}
+
+.description {}
+
+.info {}
+
+h3.species {
+  color: white;
+  font-size: 20px;
+  margin: 11px 0 0 78px;
+  padding-top: 2px;
+  text-align: center;
+  height: 26px;
+  font-family: "papyrus";
+}
+
+.species h3 {
+  font-size: 20px;
+  font-family: "Papyrus";
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.checked {
+    color: gold;
+}
